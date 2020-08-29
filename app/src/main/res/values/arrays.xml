@@ -1,0 +1,14 @@
+<resources>
+    <!--  user favourite social media entries -->
+    <string-array name="user_fav_social">
+        <item >Google+</item>
+        <item >Twitter</item>
+        <item >facebook</item>
+    </string-array>
+    <!--  user favourite social media entry values  -->
+    <string-array name="user_fav_social_values">
+        <item >https://plus.google.com/</item>
+        <item >https://twitter.com/</item>
+        <item >https://facebook.com/</item>
+    </string-array>
+</resources>

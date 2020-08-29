@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#F05A28</color>
+    <color name="nav_header_background">#444444</color>
+    <color name="course_white_color">#ffffff</color>
+    <color name="courseColorPrimary">#F05A28</color>
+</resources>

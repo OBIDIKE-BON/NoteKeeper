@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:defaultValue="@string/display_name_default"
+        app:key="display_name"
+        app:title="@string/display_name_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        android:defaultValue="@string/user_email_default"
+        app:key="user_email"
+        app:title="@string/user_email_address"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:defaultValue="@string/social_media_default"
+        app:entries="@array/user_fav_social"
+        app:entryValues="@array/user_fav_social_values"
+        app:key="user_social"
+        app:title="@string/user_social_title"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreference
+        app:key="enable_dark_mode"
+        android:defaultValue="false"
+        android:title="Enable Dark Mode"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
